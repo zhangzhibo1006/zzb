@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<link rel="stylesheet" href="css/conmmon.css" />-->
+		<link rel="stylesheet" href="css/footer.css" />
+		<!--<script src="js/jquery-1.12.4.min.js"></script>-->
+		<script type="text/javascript">
+			$(function(){
+				$(".music>li").each(function(k,v){
+					$(v).css("background-image","url(images/yinyue_"+k+".png)").click(function(){
+						var aud=$("<audio autoplay='autoplay' src='music/sound0"+k+".mp3'></audio>")
+						$("body").append(aud);
+						/*setInterval(function(){
+							aud.remove();
+						},16)*/
+						aud.siblings("audio").remove()
+					})
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!--  footer begin底部-->
+		<div class="footer">
+			<div class="container">
+				<div class="section ">
+					<ul class="music clearfix">
+						<li></li>
+					    <li></li>
+					    <li></li>
+					    <li></li>
+					    <li></li>
+					    <li></li>
+					    <li></li>
+					</ul>
+				</div>
+				<ul>
+				   <li>我的网站 版权所有  2014-2018  苏ICP备8888888</li>
+                   <li> 本页面内容为网站演示数据</li> 
+                   <li>   Powered by  <a href="#">MetInfo</a>  6.1.1</li>
+					
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

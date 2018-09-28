@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style></style>
+		<!--<link rel="stylesheet" type="text/css" href="css/conmmon.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<!--<script src="js/jquery-1.12.4.js"></script>-->
+		<script src="js/move.js"></script>
+		<script >
+			$(function(){
+				$(".nav>.i>li").hover(function(){
+					$(this).find(".ii").stop().slideDown(500,"elasticOut")
+				},function(){
+					$(this).find(".ii").stop().slideUp(300,"elasticIn")
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!-- header begin 头部-->
+		<div class="header" >
+			<div class="container">
+				<div class="logo fl"><img src="img/guanyuwomen/1531904189.png"/></div>
+				<!--二级菜单-->
+				<div class="nav fr">
+					<ul class="i">
+						
+						<li id="iii"><a href="index.html">网站首页 </a></li>
+						<li><a href="zhuti.html">科技介绍</a>	
+							<i></i>
+							<ul class="ii">
+								<li><a href="zhuti.html#0">未来科技</a></li>
+								<li><a href="zhuti.html#1">设备接入</a></li>
+								<li><a href="zhuti.html#2">联网模块</a></li>
+								<li><a href="zhuti.html#3">自有品牌APP</a></li>
+								<li><a href="zhuti.html#4">运营中心</a></li>
+								<li><a href="zhuti.html#5">数据中心</a></li>
+							</ul></li>
+						<li><a href="list.html">产品中心</a></li>
+						<li><a href="jishu.html">技术动态</a><i></i>
+							<ul class="ii">
+								<li><a href="jishu.html#0">智能家居</a></li>
+								<li><a href="jishu.html#1">前景与需求</a></li>
+								<li><a href="jishu.html#2">移动终端</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="hangye.html">行业案例</a><i></i>
+							<ul class="ii">
+								<li><a href="hangye.html#0">未来洋湖</a></li>
+								<li><a href="hangye.html#1">洋湖健康</a></li>
+								<li><a href="hangye.html#2">长沙智能家居</a></li>
+								<li><a href="hangye.html#3">智能集团</a></li>
+							</ul>
+						</li>
+						
+					    <li><a href="tiyan.html">体验店铺</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		<!-- header end-->
+	</body>
+</html>

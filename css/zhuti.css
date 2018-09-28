@@ -1,0 +1,674 @@
+body {
+	overflow: hidden;
+}
+
+.header {
+	width: 100%;
+	height: 80px;
+	background: white;
+	position: relative;
+	box-shadow: 0px 0px 10px 2px #ccc;
+	z-index: 50;
+}
+
+.header .nav>ul li {
+	text-align: center;
+	line-height: 80px;
+	float: left;
+	width: 135px;
+	height: 80px;
+}
+
+.header .nav>ul .a {
+	background: #0C8CCC;
+}
+
+.header .nav>ul {
+	position: absolute;
+	left: 22%;
+}
+
+.header .nav>ul li:hover {
+	background: #0C8CCC;
+}
+
+.header a {
+	color: #2B2B2B;
+	font: 20px "楷体";
+}
+
+.screen {
+	width: 100%;
+	background: #EAEAEA;
+	position: relative;
+}
+ .fixed{
+	width:38px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+	background: #0C8CCC;
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	z-index: 10;
+	color: white;
+	font-weight: 900;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+.fixed:hover{
+	background: white;
+	color:black;
+	box-shadow: 0px 0px 10px 1px #ccc;
+}
+
+.screen>ul {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.screen>ul>li {
+	width: 100%;
+	color: white;
+	font-size: 50px;
+	line-height: 300px;
+}
+
+
+/*第一屏*/
+
+.screen .screen-one {
+	width: 100%;
+	height: 505px;
+	background: url(../zhineng/背景/1531983123.jpg);
+	background-size: 100% 100% ;
+	position: absolute;
+	
+}
+
+.screen .screen-one img {
+	width: 900px;
+	height: 350px;
+	float: left;
+}
+
+.screen .screen-one>.section {
+	width: 900px;
+	height: 350px;
+	border: 1px solid;
+	box-shadow: 0px 0px  10px 2px skyblue;
+	margin: 5px auto;
+	position: relative;
+	top: 30px;
+	overflow: hidden;
+}
+
+.screen .screen-one>.section>.see {
+	height: 350px;
+	width: 7000px;
+	position: absolute;
+	left: 0;
+	
+}
+.screen .screen-one>.section>.arrow>.left {
+	width: 40px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	background: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+}
+.screen .screen-one>.section>.arrow>.left:hover{
+	background: skyblue;
+	color:white;
+}
+.screen .screen-one>.section>.arrow>.right:hover{
+	background: skyblue;
+	color:white;
+}
+.screen .screen-one>.section>.arrow>.right {
+	width: 40px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	background: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	position: absolute;
+	top: 150px;
+	right: 0px;
+}
+
+.screen .screen-one>.aaa {
+	width: 40px;
+	height: 200px;
+	font: 40px "黑体";
+	color: deepskyblue;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	/*transform: rotate(5deg);*/
+}
+.screen .screen-one>.aaa>i{
+	color: black;
+}
+.screen .screen-one>.ddd {
+	width: 80%;
+	margin: 0 auto;
+	font: 15px "楷体";
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+/*第二屏*/
+
+.screen .screen-two {
+	width: 80%;
+	height: 400px;
+	position: relative;
+	top: 10px;
+	margin: 0 auto;
+	border: 10px solid deepskyblue;
+}
+
+.screen .screen-two-a {
+	width: 50%;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+	background: black;
+	opacity: 0.1;
+	margin: 0 auto;
+	z-index: 10;
+	transition: all 1.5s ease;
+}
+.screen .screen-two:hover ol>img {
+	transform: translate(-68px, 51px);
+	box-shadow: 0px 0px 10px 1px skyblue;
+}
+
+
+.screen .screen-two ol>img {
+	width: 500px;
+	height: 350px;
+	position: relative;
+	top: -149px;
+	left: 550px;
+	transition: all 3s ease;
+}
+
+.screen .screen-two>.one {
+	width: 70px;
+	height: 70px;
+	background: deepskyblue;
+	font: 70px "黑体";
+	color: white;
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+
+.screen .screen-two>.aaa {
+	font: 30px "黑体";
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.screen .screen-two>.bbb {
+	font: 15px "楷体";
+	color: #70A0D1;
+	text-align: center;
+	position: relative;
+}
+
+.screen .screen-two>.bbb>div {
+	width: 100px;
+	border: 0.5px solid blue;
+	position: absolute;
+	top: 8px;
+	left: 32%;
+}
+
+.screen .screen-two>.bbb>.right {
+	top: 8px;
+	left: 56%;
+}
+
+.screen .screen-two>.write {
+	width: 550px;
+	height: 250px;
+	background: #F6F6F6;
+	position: relative;
+	top: 18px;
+	left: 10px;
+}
+
+.screen .screen-two>.write>.ccc {
+	font: 20px "宋体";
+	color: deepskyblue;
+	position: absolute;
+	top: -80px;
+	left: 15%;
+}
+
+.screen .screen-two>.write>.ddd {
+	font: 30px "黑体";
+	color: black;
+	position: absolute;
+	top: -50px;
+	left: 15%;
+}
+
+.screen .screen-two>.write>.eee {
+	font: 15px "黑体";
+	color: #37474F;
+	position: absolute;
+	top: 40px;
+	left: 10%;
+}
+.screen .screen-two>.write>.ool {
+	width: 20px;
+	border-bottom: 2px solid deepskyblue;
+	position:absolute;
+	top:65px;
+	left: 10%;
+	transition: all 1s ease;
+}
+.screen .screen-two>.write:hover .ool{
+	width: 250px;
+}
+.screen .screen-two>.write>.fff {
+	width: 80%;
+	margin: 0 auto;
+	font: 14px "黑体";
+	color: #707070;
+	position: absolute;
+	top: 80px;
+	left: 9%;
+	text-indent: 2em;
+}
+
+
+
+/*第三屏*/
+
+.screen .screen-three {
+	width: 80%;
+	height: 400px;
+	position: relative;
+	top: 10px;
+	margin: 0 auto;
+	border: 10px solid deepskyblue;
+}
+
+
+
+.screen .screen-three:hover ol>img {
+	transform: translate(-80px, -50px);
+	box-shadow: 0px 0px 10px 1px sandybrown;
+}
+
+.screen .screen-three ol>img {
+	width: 500px;
+	height: 350px;
+	position: relative;
+	top: 50px;
+	left: 0px;
+	transition: all 2s ease;
+	z-index: 2;
+}
+
+.screen .screen-three ol>.one {
+	width: 70px;
+	height: 70px;
+	background: deepskyblue;
+	font: 70px "黑体";
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 500px;
+	z-index: 1;
+}
+
+.screen .screen-three>.write {
+	width: 510px;
+	height: 250px;
+	background: #F6F6F6;
+	position: absolute;
+	top: 150px;
+	left: 480px;
+}
+
+.screen .screen-three>.write>.ccc {
+	font: 20px "宋体";
+	color: deepskyblue;
+	position: absolute;
+	top: -80px;
+	left: 20%;
+}
+
+.screen .screen-three>.write>.ddd {
+	font: 30px "黑体";
+	color: black;
+	position: absolute;
+	top: -50px;
+	left: 20%;
+}
+
+.screen .screen-three>.write>.eee {
+	font: 15px "黑体";
+	color: #37474F;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.screen .screen-three>.write>.ool {
+	width: 20px;
+	border-bottom: 2px solid deepskyblue;
+	position:absolute;
+	top:70px;
+	left:10%;
+	transition: all 1s ease;
+}
+.screen .screen-three>.write:hover .ool{
+	width: 130px;
+}
+.screen .screen-three>.write>.fff {
+	width: 80%;
+	margin: 0 auto;
+	font: 14px "黑体";
+	color: #707070;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+
+
+/*第四屏*/
+
+.screen .screen-four {
+	width: 80%;
+	height: 400px;
+	position: relative;
+	top: 10px;
+	margin: 0 auto;
+	border: 10px solid deepskyblue;
+}
+
+
+
+.screen .screen-four ol>img {
+	width: 500px;
+	height: 350px;
+	position: relative;
+	top: 100px;
+	left: 553px;
+	transition: all 2s ease;
+	z-index: 2;
+}
+
+.screen .screen-four:hover ol>img {
+	transform: translate(-60px, -50px);
+	box-shadow: 0px 0px 10px 1px skyblue;
+}
+
+.screen .screen-four ol>.one {
+	width: 70px;
+	height: 70px;
+	background: deepskyblue;
+	font: 70px "黑体";
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	z-index: 1;
+}
+
+.screen .screen-four>.write {
+	width: 550px;
+	height: 300px;
+	background: #F6F6F6;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+}
+
+.screen .screen-four>.write>.ccc {
+	font: 20px "宋体";
+	color: deepskyblue;
+	position: absolute;
+	top: -80px;
+	left: 15%;
+}
+
+.screen .screen-four>.write>.ddd {
+	font: 30px "黑体";
+	color: black;
+	position: absolute;
+	top: -50px;
+	left: 15%;
+}
+
+.screen .screen-four>.write>.eee {
+	font: 15px "黑体";
+	color: #37474F;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+.screen .screen-four>.write>.ool {
+	width: 20px;
+	border-bottom: 2px solid deepskyblue;
+	position:absolute;
+	top:75px;
+	left:13%;
+	transition: all 1s ease;
+}
+.screen .screen-four>.write:hover .ool{
+	width: 250px;
+}
+
+.screen .screen-four>.write>.fff {
+	width: 80%;
+	margin: 0 auto;
+	font: 14px "黑体";
+	color: #707070;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+
+
+/*第五屏*/
+
+.screen .screen-five {
+	width: 80%;
+	height: 400px;
+	position: relative;
+	top: 10px;
+	margin: 0 auto;
+	border: 10px solid deepskyblue;
+}
+
+
+
+.screen .screen-five:hover ol>img {
+	transform: translate(-45px, -50px);
+	box-shadow: 0px 0px 10px 1px gray;
+}
+
+.screen .screen-five ol>img {
+	width: 500px;
+	height: 350px;
+	position: relative;
+	top: 50px;
+	left: 0px;
+	transition: all 2s ease;
+	z-index: 2;
+}
+
+.screen .screen-five ol>.one {
+	width: 70px;
+	height: 70px;
+	background: deepskyblue;
+	font: 70px "黑体";
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 520px;
+	z-index: 1;
+}
+
+.screen .screen-five>.write {
+	width: 500px;
+	height: 300px;
+	background: #F6F6F6;
+	position: absolute;
+	top: 100px;
+	left: 492px;
+}
+
+.screen .screen-five>.write>.ccc {
+	font: 20px "宋体";
+	color: deepskyblue;
+	position: absolute;
+	top: -80px;
+	left: 20%;
+}
+
+.screen .screen-five>.write>.ddd {
+	font: 30px "黑体";
+	color: black;
+	position: absolute;
+	top: -50px;
+	left:20%;
+}
+
+.screen .screen-five>.write>.eee {
+	font: 15px "黑体";
+	color: #37474F;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.screen .screen-five>.write>.ool {
+	width: 20px;
+	border-bottom: 2px solid deepskyblue;
+	position:absolute;
+	top:70px;
+	left:10%;
+	transition: all 1s ease;
+}
+.screen .screen-five>.write:hover .ool{
+	width: 250px;
+}
+
+.screen .screen-five>.write>.fff {
+	width: 80%;
+	margin: 0 auto;
+	font: 14px "黑体";
+	color: #707070;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+
+
+/*第六屏*/
+
+.screen .screen-six {
+	width: 80%;
+	height: 400px;
+	position: relative;
+	top: 10px;
+	margin: 0 auto;
+	border: 10px solid deepskyblue;
+}
+
+
+.screen .screen-six ol>img {
+	width: 500px;
+	height: 350px;
+	position: relative;
+	top: 50px;
+	left: 591px;
+	transition: all 2s ease;
+	z-index: 2;
+}
+
+.screen .screen-six:hover ol>img {
+	transform: translate(-98px, -50px);
+	box-shadow: 0px 0px 10px 1px black;
+}
+
+.screen .screen-six ol>.one {
+	width: 70px;
+	height: 70px;
+	background: deepskyblue;
+	font: 70px "黑体";
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	z-index: 1;
+}
+
+.screen .screen-six>.write {
+	width: 550px;
+	height: 300px;
+	background: #F6F6F6;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+}
+
+.screen .screen-six>.write>.ccc {
+	font: 20px "宋体";
+	color: deepskyblue;
+	position: absolute;
+	top: -80px;
+	left: 15%;
+}
+
+.screen .screen-six>.write>.ddd {
+	font: 30px "黑体";
+	color: black;
+	position: absolute;
+	top: -50px;
+	left: 15%;
+}
+
+.screen .screen-six>.write>.eee {
+	font: 15px "黑体";
+	color: #37474F;
+	margin-top: 50px;
+	margin-left: 55px;
+}
+.screen .screen-six>.write>.ool {
+	width: 20px;
+	border-bottom: 2px solid deepskyblue;
+	position:absolute;
+	top:70px;
+	left:10%;
+	transition: all 1s ease;
+}
+.screen .screen-six>.write:hover .ool{
+	width: 130px;
+}
+.screen .screen-six>.write>.fff {
+	width: 80%;
+	margin: 0 auto;
+	font: 14px "黑体";
+	color: #707070;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+

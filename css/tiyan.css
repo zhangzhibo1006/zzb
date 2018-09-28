@@ -1,0 +1,71 @@
+.main{
+	width: 100%;
+	margin-top: 80px;
+}
+.main>img{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 50px;
+	
+}
+.main>.ti{
+	width: 80%;
+	height: 125px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	box-shadow: 0px -5px 10px 1px #ccc;
+}
+.main>.ti .a{
+font: 30px "楷体";
+color: black;
+font-weight: 900;
+padding: 25px  0  8px 80px
+}
+.main>.ti .b{
+	font: 15px "楷体";;
+    color: #707070;
+   margin-left: 100px;
+}
+.main>.ti>div{
+	width: 500px;
+	height: 40px;
+	line-height: 40px;
+	background: #F6F6F6;
+	font: 16px "楷体";;
+    color: black;
+    padding-left: 30px;
+    position: relative;
+    top:-50px;
+    left: 45%;
+}
+.main>.ti>div>a{
+	font: 16px "楷体";;
+    color: #707070;
+    line-height: 40px;
+}
+
+.main>.tu ul{
+width:85%;
+height: 1000px;
+margin: 0 auto;
+
+}
+.main>.tu ul>li{
+ width: 500px;
+ height: 380px;
+ text-align: center;
+float: left;
+margin: 30px 10px;
+}
+.main>.tu ul>li>img{
+ width: 500px;
+ height: 350px;
+}
+.main>.tu ul>li>span{
+  font: 30px "楷体";
+   color: #0070c0;
+}
+.main>.tu ul>li>img{
+  margin-top: 20px;
+}
+

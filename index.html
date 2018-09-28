@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/conmmon.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/index.js"></script>
+	   <script type="text/javascript">
+	   	$(function(){
+	   			window.onscroll = function() {
+				if(getsc().top >= $(".header").offsetHeight) {
+					//          nav.className = "posFixed";
+					$(".man").style.marginTop = $(".man").offsetHeight + "px";
+				} else {
+					$(".man").css("margin-top", 0)
+				}
+				// 如果滑动到一定位置，显示返回顶部按钮
+				if(getsc().top > 1500) {
+					$("body .fixed").css("display", "block")
+				} else {
+					$("body .fixed").css("display", "none")
+				}
+			
+			}
+		
+			// 封装获取scrollTop/scrollLeft
+			function getsc() {
+				return {
+					left: window.pageXOffset || document.body.scrollLeft || document.documentElement.scrollLeft || 0,
+					top: window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop || 0
+				}
+			}
+	   	})
+	   
+	   </script>
+	</head>
+
+	<body>
+			<a href="index.html">	<div class="fixed">顶部
+					<div class="fixed-one">心随未来，享你所想</div>
+				</div></a>
+			
+		<!--header-->
+		<div class="header"></div>
+		<!--main-->
+		<div class="man">
+			
+			<div class="main">
+				<!--banner-->
+				<div class="banner">
+					<ul>
+						<li class="banner-one">
+							<img class="img2" src="img/1536908852_124317.png" />
+							<img class="img3" src="img/1536909032_546310.png" />
+						</li>
+						<li class="banner-two">
+							<img class="img2" src="img/1536908528_911565.png" />
+						</li>
+						<li class="banner-three">
+							<img class="img2" src="images/banner02_02.png" />
+						</li>
+				
+					</ul>
+					<div class="banner-change">
+						<div class="prev fl"></div>
+						<div class="points">
+							<span class="left fl"></span>
+							<ol class="middle fl">
+								<li class="now"></li>
+								<li></li>
+								<li></li>
+							</ol>
+							<span class="right fl"></span>
+						</div>
+						<div class="next fr"></div>
+					</div>
+				</div>
+				<div class="main-one">
+					<div class="container">
+						<div class="aaa-aa"> <i>接近</i>未来</div>
+						<div class="aaa">
+							<img src="img/shouye/1531967257.jpg" />
+							<div class="aaa-one">
+								<li class="gogo">
+									<a href="#">零距离接触未来</a><br />Zero distance contact</li>
+								<li class="go">
+									<div class="aaa-one-a"></div>
+								</li>
+								<li>未来科技有限公司，创立于1998年，拥有近3万平方米的生产基地，注册资金2000万元，总投入1亿5千万元，员工1000余人。先后获得 CE 证书、CQC 证书、3C认证、新加坡 PSB 认证和 IDA 认证，并通过ISO9001质量认证，被中国智能家居行业协会评为智能家居十大推荐品牌。被评为高新技术企业、湖南省重点新产品等。获得超过数十项国家专利，是湖南省青少年科普基地，具备完善的售后服务体系。</li>
+
+								<a href="zhuti.html"><li class="aaa-one-b">more
+									<div class="aaa-one-bbb">more</div>
+								</li></a>
+								<li class="close"><img src="img/qita/QQ截图20180904105400.png" />
+									<div class="close-one"></div>
+								</li>
+							</div>
+							<div class="aaa-two">
+								<li>
+									<a href="#">智慧生活</a>
+								</li>
+								<li class="go">
+									<div class="aaa-one-a"></div>
+								</li>
+								<li>未来智慧生活独创一种新的生活方式，在家庭场景功能融合、增值服务挖掘的指导思想下，采用主流的互联网通信渠道，配合丰富的智能家居产品终端，构建享受智能家居控制系统带来的新的生活方式，多方位，多角度的呈现家庭生活中的更舒适，更方便，更安全和更健康的具体场景，进而共同打造出具备共同智能生活理念的智能社区。</li>
+                                  
+							<a href="index.html"><li class="aaa-one-b">more
+									<div class="aaa-one-bbb">more</div>
+								</li></a>
+								<li class="close"><img src="img/qita/QQ截图20180904105400.png" />
+									<div class="close-one"></div>
+								</li>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main-two">
+						<div class="aaa-aa"> <i>接触</i>未来</div>
+						<div class="container">
+							<div class="section">
+								<li class="li">
+									<div class="sec-one" id="sec-one">
+										<ol class="aaa"> 01 </ol>
+										<ol>
+											<div></div>
+										</ol>
+										<ol class="bbb"> 智能场景</ol>
+										<ol><img src="img/shouye/1531968969.jpg" /></ol>
+										<ol class="ccc">采用OLED显示，可以根据实际的需求配置不同的场景模式。 提供多种场景选择，可以根据自身需要和习惯，配置相应的场景。 未来科技场景控制器真正意义上让用户感受不同的场景模式，用户可以通过任何移动终端，即使远在千里之外也可随心调控设备，从而达到不同的身心享受。场景控制器提供多种场景选择，用户可以根据自身需要和习惯，配置相应的场景，如温馨的回家模式、浪漫的就餐模式等，满足不同需求。
+										</ol>
+									</div>
+								</li>
+								<li>
+									<div class="sec-one">
+										<ol class="aaa"> 02 </ol>
+										<ol>
+											<div></div>
+										</ol>
+										<ol class="bbb">智能照明</ol>
+										<ol><img src="img/shouye/1531972355.jpg" /></ol>
+										<ol class="ccc">86型入墙智能开关，实现照明的手机控制、定时控制、预约控制，并可根据居室亮度和应用场景，实现智能化的照明。 </ol>
+									</div>
+								</li>
+								<li>
+									<div class="sec-one">
+										<ol class="aaa"> 03 </ol>
+										<ol>
+											<div></div>
+										</ol>
+										<ol class="bbb">家庭安全</ol>
+										<ol><img src="img/shouye/1531972767.jpg" /></ol>
+										<ol class="ccc">让你的手机变成万能遥控器 实现所有红外家电的智能化控制，包括空调、电视、空气净化器、投影机、蓝光DVD等 </ol>
+									</div>
+								</li>
+								<li>
+									<div class="sec-one">
+										<ol class="aaa"> 04 </ol>
+										<ol>
+											<div></div>
+										</ol>
+										<ol class="bbb">智能家电</ol>
+										<ol><img src="img/shouye/1531972831.jpg" /></ol>
+										<ol class="ccc">实时监控，低功耗、精准度高、超长待机、安装简单、小巧隐蔽 联动设备：检测到地面漏水时，立即发送报警信号，同时驱动电控水阀关闭水源，通知物业等功能 即使不在家，也了解家里的一切状况，灵活应对各种、漏水场景，安心守护推送报警消息至手机APP </ol>
+									</div>
+								</li>
+							</div>
+
+						</div>
+					</div>
+					<div class="main-three">
+						<div class="aaa-aa"> <i>了解</i>未来</div>
+						<div class="container">
+							<li>
+								<ol class="abc"><img src="img/qita/QQ截图20180903220743.png" /></ol>
+								<ol class="aaa">智慧生活</ol>
+								<ol>
+									<div></div>
+								</ol>
+								<ol class="ddd"><img src="img/shouye/1532496893115729.jpg" /></ol>
+								<ol class="bbb">未来智慧生活独创一种新的生活方式，在家庭场景功能融合、增值服务挖掘的指导思想下，采用主流的互联网通信渠道，配合丰富的智能家居产品终端，构建享受智能家居控制系统带来的新的生活方式，多方位，多角度的呈现家庭生活中的更舒适，更方便，更安全和更健康的具体场景，进而共同打造出具备共同智能生活理念的智能社区。</ol>
+								<ol class="open"></ol>
+							</li>
+							<li>
+								<ol class="abc"><img src="img/qita/QQ截图20180904100617.png"></ol>
+								<ol class="aaa">智慧办公</ol>
+								<ol>
+									<div></div>
+								</ol>
+								<ol class="ddd"><img src="img/shouye/1532496960979188.jpg" /></ol>
+								<ol class="bbb">未来智慧办公利用云计算技术对办公业务所需的软硬件设备进行智能化管理，实现企业应用软件统一部署与交付的新型办公模式。</ol>
+								<ol class="open"></ol>
+							</li>
+							<li>
+								<ol class="abc" id="abc"><img src="img/qita/QQ截图20180904100737.png" /></ol>
+								<ol class="aaa">智慧酒店</ol>
+								<ol>
+									<div></div>
+								</ol>
+								<ol class="ddd"><img src="img/shouye/1532497070277985.jpg" /></ol>
+								<ol class="bbb">未来智慧酒店拥有一套完善的智能化体系，通过数字化与网络化实现酒店数字信息化服务技术。</ol>
+								<ol class="open"></ol>
+							</li>
+							<li>
+								<ol class="abc"><img src="img/qita/QQ截图20180903220845.png" /></ol>
+								<ol class="aaa">智慧教育</ol>
+								<ol>
+									<div></div>
+								</ol>
+								<ol class="ddd"><img src="img/shouye/1532490629.jpg" /></ol>
+								<ol class="bbb">未来智慧教育在教育领域（教育管理、教育教学和教育科研）全面深入地运用现代信息技术来促进教育改革与发展。其技术特点是数字化、网络化、智能化和多媒体化，基本特征是开放、共享、交互、协作。以教育信息化促进教育现代化，用信息技术改变传统模式。</ol>
+								<ol class="open"></ol>
+							</li>
+							<li>
+								<ol class="abc"><img src="img/qita/QQ截图20180903220859.png" /></ol>
+								<ol class="aaa">智慧养老</ol>
+								<ol>
+									<div></div>
+								</ol>
+								<ol class="ddd"><img src="img/shouye/1532497164355227.jpg" /></ol>
+								<ol class="bbb">未来智慧养老是面向居家老人、社区及养老机构的传感网系统与信息平台，并在此基础上提供实时、快捷、高效、低成本的，物联化、互联化、智能化的.</ol>
+								<ol class="open"></ol>
+							</li>
+						</div>
+					</div>
+					<div class="main-four">
+						<div class="aaa-aa"> <i>熟悉</i>未来</div>
+						<div class="container">
+							<div class="monday">
+								<img src="img/shouye/1532077245.jpg" />
+								<div class="monday-one">
+									<li class="aaa">2018-07-24</li>
+									<li>
+										<div></div>
+									</li>
+									<li class="bbb">楼盘全面“智能化”，你会买单吗？</li>
+									<li class="ccc">下班回家，不用自己按电梯，系统会自动为你识别回家的楼层；夏日炎炎，远程遥控家中的空调，到家即可舒舒服服“叹凉风”；人在车库就能提前启动家中的烤炉，家中空气质量能随时监测，小区里萌萌的机器人保安在四处巡逻……近期，记者走访发现，广州不少新盘刮起了“智能风”，诸如此类在高科技大片中看到的场景，有望变为现实。 楼盘从智能家居向智慧小区跨越 “只要在手机里安装一。</li>
+									<a href="jishu.html"><li class="ddd">more
+										<div class="dddd">more</div>
+									</li></a>
+									<li class="close"><img src="img/qita/QQ截图20180904105400.png" />
+										<div class="close-one"></div>
+									</li>
+								</div>
+							</div>
+							<div class="therday">
+								<li><img src="img/shouye/1532077108.jpg" />
+									<ul>
+										<ol class="aaa">2018-07-24</ol>
+										<ol>
+											<div></div>
+										</ol>
+										<ol class="bbb">智能家居是什么，能带来哪些新的变化</ol>
+										<ol class="ccc">科技改变世界，智能改变生活。近年来身边有越来越多的人开始关注智能家居起来了，但大多数都是听说，并不了解智能家居是什么。</ol>
+									</ul>
+								</li>
+								<li><img src="img/shouye/1532079640.jpg" />
+									<ul>
+										<ol class="aaa">2018-07-24</ol>
+										<ol>
+											<div></div>
+										</ol>
+										<ol class="bbb">深入解剖智能家居前景与用户需求</ol>
+										<ol class="ccc">近几年来，智能家居巨大的市场潜力吸引了众多企业纷纷踏至而来，为能够抢占这块蛋糕做着充分的准备。然而，看似已经迈上大好之路的智能家居，却没有产生厂商所期待的那种效果。</ol>
+									</ul>
+								</li>
+								<li><img src="img/shouye/1532080547.jpg" />
+									<ul>
+										<ol class="aaa">2018-07-24</ol>
+										<ol>
+											<div></div>
+										</ol>
+										<ol class="bbb">移动终端，智能家居的心脏</ol>
+										<ol class="ccc">作为小区智能化系统的核心，智能家居平台系统通过其核心设备——家庭智能终端来实现家庭智能化的功能。智能终端可谓是智能家居发展的集大成者。</ol>
+									</ul>
+								</li>
+
+							</div>
+
+						</div>
+					</div>
+					<div class="main-five">
+						<div class="container">
+							<div class="five-one"><i>合作</i>伙伴
+								<p></p>
+							</div>
+							<div class="five-two">
+								<a href="https://baike.sogou.com/v5616992.htm?fromTitle=Agilent+Technologies"><li><img src="img/shouye/1532082906.png" /></li></a>
+
+								<a href="https://www.tencent.com/zh-cn/index.html"><li><img src="img/shouye/1532336236.png" /></li></a>
+
+								<a href="https://baike.sogou.com/v10349.htm?fromTitle=%E5%8D%8E%E4%B8%BA"><li><img src="img/shouye/1532335666.png" /></li></a>
+
+								<a href="http://www.gree.com.cn"><li><img src="img/shouye/1532335869.png" /></li></a>
+
+								<a href="https://www.mi.com/"><li><img src="img/shouye/1532335856.png" /></li></a>
+
+								<a href="http://www.crc.com.cn/"><li><img src="img/shouye/1532336308.png" /></li></a>
+
+								<a href="http://game.163.com/"><li><img src="img/shouye/1532336111.png" /></li></a>
+
+								<a href="https://www.dell.com/zh-cn"><li><img src="img/shouye/1532400831.png" /></li></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--fooder-->
+				<div class="footer "></div>
+	</body>
+
+</html>
